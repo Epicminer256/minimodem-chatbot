@@ -9,7 +9,7 @@ command2act="man minimodem"
 command3act="w3m google.com"
 command4act="clear"
 
-echo pick channel from 1 to 8
+echo pick channel from 1 to 6
 read chchannel
 let channel1=$chchannel*1000
 let channel2=$chchannel*1000+300
